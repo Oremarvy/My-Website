@@ -221,7 +221,7 @@ hr{
     }
     .bottom-cloud{
         position: absolute;
-        bottom: 300px;
+        bottom: 250px;
         left: 100px;
     }
     .top-cloud{
@@ -229,7 +229,10 @@ hr{
         right: 90px;
         top: 75px;
     }
-
+    .mountain{
+      display: flex;
+     width: 100%;
+    }
     /* Show nav links when menu toggle is checked */
     #menu-toggle:checked + .menu-icon + nav {
         display: flex;
