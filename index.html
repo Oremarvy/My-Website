@@ -10,6 +10,7 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!-- <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> -->
 <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Itim&family=Titillium+Web:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,600;1,700&display=swap" rel="stylesheet">
 </head>
 <body>
@@ -18,20 +19,32 @@
     <label for="menu-toggle" class="menu-icon">☰</label>
     <nav>
       <a href="">About</a>
-      <a href="Work.html">Work</a>
+      <a href="Portfolio.html">Work</a>
       <a href="Notes.html">Notes</a>
     </nav>
   </header>
 
  
-    <div class="top-container">
-        <img src="images/cloud.png" class="top-cloud" alt="cloud-img">
+    <div class="top-container" >
+        <img src="images/cloud.png" class="top-cloud" id="top-cloud" alt="cloud-img">
         <h1>I'm Oreoluwa</h1>
         <h2>a programmer.</h2>
-        <img src="images/cloud.png" class="bottom-cloud" alt="cloud-img">
-        <img src="images/mountain.png" class="mountain" alt="mountain-img">
+        <img src="images/cloud.png" class="bottom-cloud" id="bottom-cloud" alt="cloud-img">
+        <img src="images/mountain2.png" class="mountain" id="mountain" alt="mountain-img">
+        <div class="bubbles">
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          <div class="bubble"></div>
+          </div>
     </div>
-    <div class="middle-container">
+    <div class="middle-container" >
         <div class="profile">
           <img src="images/Oreoluwa.png" alt="My Picture">
           <h2>Hello.</h2>
@@ -40,7 +53,7 @@
 
         <hr noshade="1">
 
-        <div class="skills">
+        <div class="skills" >
           <h2>My Skills.</h2>
           <div class="skill-row">
             <img class="java" src="images/java-img.jpg" alt="java-img">
@@ -62,8 +75,8 @@
 
         <div class="contact-me">
           <h2>Get In Touch</h2>
-          <h3>Lorem ipsum dolor sit amet, non elit.</h3>
-          <p class="contact-message">Lorem ipsum dolor sit amet, in quis, aenean amet. Phasellus sodales, tellus donec dui, ornare erat.</p>
+          <h3>If you like my work.</h3>
+          <p class="contact-message">I'm sure you'd like to use my services.</p>
           <a class="btn" href="mailto:oremarvy227@gmail.com">CONTACT ME</a>
         </div>
       </div>
@@ -76,7 +89,9 @@
         <a class="footer-link"  href="https://www.instagram.com/ore__marvel/">Instagram</a>
         <p class="copyright">© 2024 Oreoluwa Adeoti.</p>
       </div>
+      <button id="backToTop" onclick="scrollToTop()">↑</button>
+
       
-    
+      <script type="text/javascript" src="main.js"></script>
 </body>
 </html>
